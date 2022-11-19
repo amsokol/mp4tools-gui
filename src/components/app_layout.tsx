@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 export default function AppLayout({ children }) {
 	return (
 		<>
-			<Navbar />
+			<header>
+				<Navbar />
+			</header>
 			<main>{children}</main>
 		</>
 	)

@@ -1,15 +1,12 @@
-import {
-    atom,
-    RecoilState
-} from 'recoil'
+import { atom, RecoilState } from 'recoil'
 
-export type DN = {
-    textState: RecoilState<string>
+export type AudioDN = {
+	source: RecoilState<string>
 }
 
-export const store: DN = {
-    textState: atom({
-        key: 'textState', // unique ID (with respect to other atoms/selectors)
-        default: 'qwerty', // default value (aka initial value)
-    })
+export const storeAudioDN: AudioDN = {
+	source: atom({
+		key: 'audio.dn.source', // audio.dn.source unique ID (with respect to other atoms/selectors)
+		default: '', // default value (aka initial value)
+	}),
 }
