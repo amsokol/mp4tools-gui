@@ -7,8 +7,8 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "mp4tools-gui",
-    "version": "0.0.0"
+    "productName": "MP4 tools",
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "org.amsokol.mp4tools.gui",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "mp4tools-gui",
+        "title": "MP4 tools",
         "width": 800
       }
     ]
