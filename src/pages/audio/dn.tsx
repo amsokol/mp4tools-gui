@@ -27,6 +27,12 @@ function AudioDN() {
 					type={FileInputType.Audio}
 					value={source}
 					onChange={onChangeSource}
+					filters={[
+						{
+							name: 'Audio',
+							extensions: ['aac', 'adts', 'ac3', 'ec3', 'ac4', 'dts', 'eac3'],
+						},
+					]}
 				/>
 				<input type="submit" value="Submit" />
 			</form>
